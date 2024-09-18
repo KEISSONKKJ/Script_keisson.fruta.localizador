@@ -1,4 +1,7 @@
 # Script_keisson.fruta.localizador
+
+git remote add origin https://github.com/Script_keisson.fruta.localizador.git
+
 -- Script ESP para Blox Fruits
 -- Nome: Keisson
 
