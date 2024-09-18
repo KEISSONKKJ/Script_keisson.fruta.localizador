@@ -13,7 +13,7 @@ local passwords = {
 local usedPasswords = {}
 
 -- Função para desenhar ESP
-local function DrawESP()
+local function DESP()
     if not ESPEnabled then return end
 
     for _, fruit in pairs(workspace:GetChildren()) do
@@ -58,6 +58,6 @@ end)
 
 -- Loop para atualizar o ESP
 while true do
-    DrawESP()
+    DESP()
     wait(0.1)
 end
